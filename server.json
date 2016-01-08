@@ -1,0 +1,7 @@
+{
+	"ui_dir": "/var/www/consul",
+	"server": true,
+	"dns_config": {
+		"allow_stale": false
+	}
+}
