@@ -24,4 +24,4 @@ COPY agent.json /etc/consul.d/
 COPY server.json /etc/consul.d/
 
 # launches the agent
-ENTRYPOINT ["/bin/consul", "agent", "-server", "-bootstrap-expect=0", "-config-dir=/etc/consul.d"]
+ENTRYPOINT ["/bin/consul", "agent", "-server", "-bootstrap", "-config-dir=/etc/consul.d"]
